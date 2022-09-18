@@ -110,3 +110,8 @@ footer {
     font-size: var(--caption);
     color: var(--footer-color);
 }
+
+lottie-player {
+    width: 500px; 
+    height: 500px;
+}
