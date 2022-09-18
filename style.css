@@ -49,6 +49,14 @@ html {
 body {
     background-color: var(--background-color);
     font-family: 'Poppins', sans-serif;
+    width: 100%;
+}
+
+main {
+    padding-right: 3rem;
+    padding-left: 3rem;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 header {
@@ -63,10 +71,6 @@ header {
 
 header img {
     width: 20rem;
-}
-
-main {
-    padding: 0 3rem;
 }
 
 main section {
