@@ -1,0 +1,17 @@
+:root {
+  --background-color: #210138;
+  --text-color: white;
+  --hover-color: #38BEC9;
+  --text-details: #C42D78;
+  --footer-color: #9AA5B1;
+  --headline1: 5.8rem;
+  --headline2: 4.6rem;
+  --headline3: 3.8rem;
+  --headline4: 2.3rem;
+  --headline5: 1.9rem;
+  --subtitle1: 1.5rem;
+  --subtitle2: 1.3rem;
+  --body: 1.5rem;
+  --button1: 1.6rem;
+  --caption: 1.3rem;
+}
