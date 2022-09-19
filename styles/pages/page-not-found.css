@@ -11,14 +11,55 @@
 
 #page-not-found h1 {
   font-size: var(--headline3);
+  margin-top: -1rem;
+  z-index: 1;
 }
 
 #page-not-found p {
   font-size: var(--headline5);
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
 }
 
 #page-not-found lottie-player {
-  width: 500px; 
-  height: 500px;
+  margin-top: 2rem;
+  height: 525px;
+}
+
+body {
+  background-color: #0B0218;
+  background-image: url(../../assets/background.svg);
+  /* background-position: center; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+@media (max-width: 1176px) {
+  body {
+     background-size: cover;
+  }
+}
+
+@media (max-width: 638px) {
+  header img#logo {
+    width: 16rem;
+  }
+
+  #page-not-found h1 {
+    font-size: var(--headline4);
+  }
+
+  #page-not-found p {
+    font-size: var(--subtitle1);
+  }
+}
+
+@media (max-width: 450px) {
+  #page-not-found h1 {
+    font-size: var(--headline5);
+  }
+
+  #page-not-found p {
+    font-size: var(--subtitle2);
+  }
 }
