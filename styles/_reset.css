@@ -19,3 +19,8 @@ button, input[type="submit"], input[type="reset"] {
   text-decoration: none;
   background: transparent;
 }
+
+a {
+  text-decoration: none;
+  color: inherit;
+}

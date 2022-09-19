@@ -1,21 +1,18 @@
 #page-not-found {
   display: flex;
-  /* align-items: center;
-  justify-content: center; */
-  text-align: center;
-  text-justify: justify;
-  /* flex-direction: column; */
-
+  /* text-align: center;
+  text-justify: justify; */
+  
   color: var(--text-color);
 }
 
 #text-container {
   display: flex;
-  align-items: flex-end;
+  align-items: flex-start;
   text-align: left;
   flex-direction: column;
 
-  margin-left: 7.1rem;
+  margin-left: 9.0rem;
 }
 
 #text-container h1 {
@@ -33,12 +30,21 @@
 #social-media {
   display: flex;
   flex-direction: row;
-  padding: 1.5rem;
+  align-items: flex-start;
+  gap: 1.5rem;
+
+  width: 3.0rem;
+  margin-top: 12.6rem;
 }
 
-#img-404 lottie-player {
-  display: flex;
-  align-items: flex-start;
+#instagram:hover {
+  background: linear-gradient(90deg, #DF0037 0%, #BE0491 100%);
+border-radius: 1000px;
+}
+
+#image-404 {
+  margin-right: -9.5rem;
+
   margin-top: 2rem;
   height: 525px;
 }
