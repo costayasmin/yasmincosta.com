@@ -1,0 +1,63 @@
+#social-media {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 1.5rem;
+  
+    width: 4.0rem;
+    margin-top: 12.6rem;
+  }
+  
+  #social-media a {
+    align-items: center;
+  
+    height: 50px;
+    width: 50px;
+  
+    border-radius: 50%;
+    background-color: #F3F3F3;
+    padding: 18px;
+  }
+
+  /* ------- Icons ------ */
+  
+  #linkedin:hover {
+    background-color: #2067BE;
+  } 
+  
+  #linkedin:hover img {
+    filter: brightness(0) invert(1);
+  }
+  
+  #behance:hover {
+    background-color: #225BF9;
+  } 
+  
+  #behance:hover img {
+    filter: brightness(0) invert(1);
+  }  
+  
+  #github:hover {
+    background-color: #7743CE;
+  } 
+  
+  #github:hover img {
+    filter: brightness(0) invert(1);
+  }
+  
+  #instagram:hover {
+    background: linear-gradient(90deg, #DF0037 0%, #BE0491 100%);
+  } 
+  
+  #instagram:hover img {
+    filter: brightness(0) invert(1);
+  }
+  
+  #email:hover {
+    background-color: #E7413B;
+  } 
+  
+  #email:hover img {
+    filter: brightness(0) invert(1);
+  }  
+  
