@@ -1,28 +1,37 @@
 #page-not-found {
   display: flex;
-  /* text-align: center;
-  text-justify: justify; */
-  
+  flex: wrap;
+  align-items: center;
+  justify-content: center;
+
+  margin: 0 150px;
+
   color: var(--text-color);
 }
 
+/* ----- box left ----- */
+
 #text-container {
   display: flex;
-  align-items: flex-start;
-  text-align: left;
+  align-items:flex-start;
+  justify-content: center;
+  flex: 1;
+  /* text-align: left; */
   flex-direction: column;
-
-  margin-left: 9.0rem;
+/* 
+  margin-left: 9.0rem; */
 }
 
 #text-container h1 {
   font-size: var(--headline3);
-  margin-top: 21.3rem;
+
+  margin-top: 17.3rem;
   z-index: 1;
 }
 
 #text-container p {
   padding-top: 1.9rem;
+
   font-size: var(--headline5);
   margin-bottom: 3rem;
 }
@@ -33,20 +42,21 @@
   align-items: flex-start;
   gap: 1.5rem;
 
-  width: 3.0rem;
+  width: 4.0rem;
   margin-top: 12.6rem;
 }
 
-#instagram:hover {
-  background: linear-gradient(90deg, #DF0037 0%, #BE0491 100%);
-border-radius: 1000px;
-}
+/* ----- box right ----- */
 
 #image-404 {
-  margin-right: -9.5rem;
+  display: flex;
+  align-items: center;
 
-  margin-top: 2rem;
-  height: 525px;
+  margin-top: 70px;
+
+  flex: 1;
+
+  height: 575px;
 }
 
 body {
