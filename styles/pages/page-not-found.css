@@ -36,15 +36,7 @@
   margin-bottom: 3rem;
 }
 
-#social-media {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  gap: 1.5rem;
 
-  width: 4.0rem;
-  margin-top: 12.6rem;
-}
 
 /* ----- box right ----- */
 
