@@ -9,3 +9,6 @@
 /* Components */
 @import url(./styles/layout/header.css);
 @import url(./styles/layout/footer.css);
+
+/* Icons */
+@import url(./styles/layout/social-midia.css);
