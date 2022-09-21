@@ -1,0 +1,45 @@
+@media (max-width: 1176px) {
+  #page-not-found {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    background-size: cover;
+  }
+
+  #page-not-found h1 {
+    margin-top: -4rem;
+  }
+}
+
+@media (max-width: 732px) {
+  #page-not-found lottie-player {
+    margin-top: -5rem;
+  }
+
+  header img#logo {
+    width: 16rem;
+  }
+
+  #page-not-found h1 {
+    font-size: var(--headline4);
+    margin-top: -8rem;
+  }
+
+  #page-not-found p {
+    font-size: var(--subtitle1);
+  }
+}
+
+@media (max-width: 492px) {
+  #page-not-found lottie-player {
+    margin-top: 2rem;
+    height: 525px;
+  }
+  #page-not-found h1 {
+    font-size: var(--headline5);
+  }
+
+  #page-not-found p {
+    font-size: var(--subtitle2);
+  }
+}
