@@ -9,7 +9,9 @@
   }
   
   #social-media a {
+    display: flex;
     align-items: center;
+    justify-content: center;
   
     height: 50px;
     width: 50px;
@@ -17,10 +19,17 @@
     border-radius: 50%;
     background-color: #F3F3F3;
     padding: 18px;
+    transition: background-color 1s ease-in-out;
+  }
+
+  #social-media a img {
+    height: 20px;
+    width: 20px;
   }
 
   /* ------- Icons ------ */
-  
+
+
   #linkedin:hover {
     background-color: #2067BE;
   } 
