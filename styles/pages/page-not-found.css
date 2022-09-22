@@ -36,8 +36,6 @@
   margin-bottom: 3rem;
 }
 
-
-
 /* ----- box right ----- */
 
 #image-404 {
@@ -47,7 +45,9 @@
   margin-top: 70px;
 
   flex: 1;
+}
 
+#image-404 lottie-player {
   height: 575px;
 }
 

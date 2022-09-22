@@ -7,40 +7,51 @@
   }
 
   #page-not-found {
-    margin: 0 40px;
+    margin: 0 4.0rem;
   }
 }
 
 /* ----------------------------------------------------------- */
 
-@media (max-width: 986px) {
-  #page-not-found h1 {
-    margin-top: 0;
-    font-size: var(--headline4);
+@media (max-width: 1024px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    
+    background-size: cover;
   }
-  
+
+  #page-not-found h1 {
+    margin-top: -3rem;
+  }
+
   #page-not-found p {
     font-size: var(--subtitle1);
   }
 
   #page-not-found lottie-player {
-    margin-top: -7rem;
+    margin-top: -10.0rem;
   }
 
   #social-media {
-    width: auto;
     margin-top: 1rem;
   }
+
+  #social-media a {
+    height: 2.0rem;
+    width: 2.0rem;
+  }
+
+  #social-media a img {
+    height: 1.2rem;
+    width: 1.2rem;
+  }
+
 }
 
 /* ----------------------------------------------------------- */
 
-@media (max-width: 737px) {
-  
-  header img#logo {
-    width: 16rem;
-  }
-  
+@media (max-width: 986px) {
   #page-not-found {
     flex-direction: column-reverse;
   }
@@ -50,22 +61,43 @@
     justify-content: center;
     text-align: center;
     flex: 1;
+  }
 
+  #page-not-found h1 {
+    margin-top: 3rem;
+    font-size: var(--headline4);
+  }
+  
+  #page-not-found p {
+    font-size: var(--subtitle1);
   }
 
   #page-not-found lottie-player {
+    margin-top: 1rem;
+    height: 37.5rem;
+  }
+
+  #social-media {
+    width: auto;
+    margin-top: 4rem;
+  }
+}
+
+/* ----------------------------------------------------------- */
+
+@media (max-width: 768px) {
+  
+  header img#logo {
+    width: 16rem;
+  }
+
+  #page-not-found h1 {
+    margin-top: 8rem;
+  }
+ 
+  #page-not-found lottie-player {
     margin-top: 0.1rem;
-    height: 375px;
-  }
-
-  #social-media a {
-    height: 30px;
-    width: 30px;
-  }
-
-  #social-media a img {
-    height: 14px;
-    width: 14px;
+    height: 37.5rem;
   }
 }
 
@@ -77,7 +109,7 @@
   }
   
   #page-not-found {
-    margin: 0 20px;
+    margin: 0 2.0rem;
   }
 
   #page-not-found h1 {
@@ -85,24 +117,20 @@
   }
 
   #page-not-found lottie-player {
-    height: 355px;
+    height: 35.5rem;
   }
 }
 
 /* ----------------------------------------------------------- */
 
-@media (max-width: 558px) {
+@media (max-width: 540px) {
   
   header img#logo {
     width: 16rem;
   }
-  
-  #page-not-found {
-    margin: 0 20px;
-  }
 
   #page-not-found h1 {
-    margin-top: 6rem;
+    margin-top: 3rem;
     font-size: var(--headline5);
   }
   
@@ -111,7 +139,19 @@
   }
 
   #page-not-found lottie-player {
-    height: 325px;
+    margin-top: -2rem;
+    height: 25.5rem;
+  }
+
+  #social-media a {
+    margin-top: -3rem;
+    height: 2.0rem;
+    width: 2.0rem;
+  }
+
+  #social-media a img {
+    height: 1.2rem;
+    width: 1.2rem;
   }
 
 }
@@ -120,23 +160,73 @@
 
 @media (max-width: 451px) {
   #page-not-found {
-    margin: 0 5px;
+    margin: 0 0.5rem;
   }
 
   #page-not-found lottie-player {
-    height: 295px;
+    margin-top: -5rem;
+    height: 29.5rem;
   }
 
   #social-media a {
-    height: 20px;
-    width: 20px;
+    height: 2.0rem;
+    width: 2.0rem;
   }
 
   #social-media a img {
-    height: 12px;
-    width: 12px;
+    height: 1.2rem;
+    width: 1.2rem;
   }
   
 }
 
 /* ----------------------------------------------------------- */
+
+@media (max-width: 375px) {
+  #page-not-found {
+    margin: 0 .5rem;
+  }
+
+  #page-not-found lottie-player {
+    margin-top: -5rem;
+    height: 21.5rem;
+  }
+
+  #page-not-found h1 {
+    margin-top: 2rem;
+  }
+
+  #social-media a {
+    height: 2.0rem;
+    width: 2.0rem;
+  }
+
+  #social-media a img {
+    height: 1.2rem;
+    width: 1.2rem;
+  }
+  
+}
+
+/* ----------------------------------------------------------- */
+
+@media (max-width: 280px) {
+  #page-not-found {
+    margin: 0 .5rem;
+  }
+
+  #page-not-found lottie-player {
+    margin-top: -5rem;
+    height: 21.5rem;
+  }
+
+  #social-media a {
+    height: 1.4rem;
+    width: 1.4rem;
+  }
+
+  #social-media a img {
+    height: 1.2rem;
+    width: 1.2rem;
+  }
+}
